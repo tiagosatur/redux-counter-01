@@ -2,9 +2,28 @@
   list-style: none;
   padding: 0; }
   .todo__list .list-item {
+    align-items: center;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 3px;
+    display: flex;
     color: #333;
     font-size: 14px;
+    justify-content: space-between;
     padding: 15px;
     margin-bottom: 15px; }
+    .todo__list .list-item__text {
+      margin-right: 10px; }
+    .todo__list .list-item__crud {
+      display: flex; }
+      .todo__list .list-item__crud button:first-of-type {
+        margin-right: 5px; }
+    .todo__list .list-item__btn {
+      cursor: pointer;
+      border: 1px solid #CCC;
+      background: white;
+      display: flex;
+      padding: 6px; }
+      .todo__list .list-item__btn .icon {
+        height: 14px;
+        width: 14px;
+        fill: #0066FF; }
